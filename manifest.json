@@ -1,0 +1,11 @@
+{
+  "name": "A browser action with no icon that makes the page red",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["core.css"],
+      "js": ["customizeDoc.js"]
+    }
+  ]
+}
